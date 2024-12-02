@@ -1,11 +1,20 @@
 # Learnify
 
 ## Abstract 
+
+### We wrote a research paper about our approach [Research paper](data/LearnifyPaper-1.pdf)
+
+### The pitch [Pitch](data/pitch.pdf)
 The lack of personalization in education hampers struggling students’ ability to address learning gaps, contributing to burnout, high dropout
 rates, and absenteeism. This issue arises from misguided approaches to personalization that focus on poor learning proxies, misdiagnosis of
 causes-and-effects and an unhealthy emphasis on multi-modal course content, as current approaches to Intelligent Tutoring Systems (ITS)
-often emphasize domain-specific expertise (e.g., math or coding), which neglects the core bottleneck in education: 1- lack of a good student
-model 2- lack of a learning framework to utilize the student model.
+often emphasize domain-specific expertise (e.g., math or coding), which neglects the core bottleneck in education:
+
+ 1- lack of a good student
+model 
+
+ 2- lack of a learning framework to utilize the student model.
+
 Our solution addresses this by combining both elements: democratizing access to an accurate student model and applying Bloom Taxonomy as a
 learning framework to utilize it. This contrarian approach personalizes the student profile rather than the domain, leveraging Bloom Taxonomy
 to build student-centric ITS. Key to our innovation is delegating student-model expertise to large language models (LLMs) while leaving
@@ -26,3 +35,4 @@ System, Cognitivism, Connectivism, Large Language Models, Artificial Intelligenc
 2. Install requirements `pip install -r requirements.txt`
 3. create a keys.py file inside `\src` folder and put your open-ai key in it `key = "sk-proj xxxxx ...."`
 4. lunch the app with `streamlit run app.py`
+5. Find examples in `data/biology` or `data/physics` as inputs to the system
